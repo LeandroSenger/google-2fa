@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^5.5.9 || ^7.0 || ^8.0"
+    },
     "autoload": {
         "psr-4": {
             "Senger\\Google-2fa\\": "src/"
@@ -24,3 +26,4 @@
         }
     }
 }
+
