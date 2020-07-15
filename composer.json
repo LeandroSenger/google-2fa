@@ -1,0 +1,26 @@
+{
+    "name": "senger/google-2fa",
+    "description": "Autenticação em 2 fatores",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leandro.senger",
+            "email": "leandro.senger@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Senger\\Google-2fa\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "Senger\\Google-2fa\\google-2faServiceProvider"
+            ]
+        }
+    }
+}
