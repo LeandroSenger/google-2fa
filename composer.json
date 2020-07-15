@@ -17,13 +17,6 @@
         "psr-4": {
             "Senger\\Google-2fa\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers":[
-                "Senger\\Google-2fa\\src\\Google2faServiceProvider"
-            ]
-        }
     }
 }
 
