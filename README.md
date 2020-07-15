@@ -1,4 +1,4 @@
-# Package - para autenticação em 2 fatores
+# Package - for 2-factor authentication
 
 
 Google 2fa.
