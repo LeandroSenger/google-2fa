@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers":[
-                "Senger\\Google-2fa\\google-2faServiceProvider"
+                "Senger\\Google-2fa\\Google2faServiceProvider"
             ]
         }
     }
