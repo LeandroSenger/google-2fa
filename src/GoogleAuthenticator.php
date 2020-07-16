@@ -6,6 +6,10 @@ class GoogleAuthenticator
 {
     protected $_codeLength = 6;
 
+    public function version(){
+        echo "Versão 1.0";
+    }
+
     public function createSecret($secretLength = 16)
     {
         $validChars = $this->_getBase32LookupTable();
