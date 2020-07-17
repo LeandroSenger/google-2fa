@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Senger\\Google-2fa\\": "src"
+            "Senger\\Google2fa\\": "src"
         }
     }
 }
