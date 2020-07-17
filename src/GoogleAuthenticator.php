@@ -7,7 +7,8 @@ class GoogleAuthenticator
     protected $_codeLength = 6;
 
     public function version(){
-        echo "Versão 1.0";
+        $versao = "Versão 1.0";
+        return  $versao;
     }
 
     public function createSecret($secretLength = 16)

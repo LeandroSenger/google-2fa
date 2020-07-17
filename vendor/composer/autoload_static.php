@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd94c96494252c18778dcc0a8cf3ea87f
+class ComposerStaticInit6e1f52367c451d6791e8311a19d194bb
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Senger\\Google-2fa\\' => 18,
+            'Senger\\Google2fa\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Senger\\Google-2fa\\' => 
+        'Senger\\Google2fa\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -23,8 +23,8 @@ class ComposerStaticInitd94c96494252c18778dcc0a8cf3ea87f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd94c96494252c18778dcc0a8cf3ea87f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd94c96494252c18778dcc0a8cf3ea87f::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6e1f52367c451d6791e8311a19d194bb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6e1f52367c451d6791e8311a19d194bb::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

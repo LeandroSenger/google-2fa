@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Senger\\Google-2fa\\' => array($baseDir . '/src'),
+    'Senger\\Google2fa\\' => array($baseDir . '/src'),
 );
