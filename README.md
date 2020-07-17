@@ -5,7 +5,7 @@ A One Time Password Authentication package, compatible with Google Authenticator
 
 # Ex:
 
-use Senger\Google2fa\GoogleAuthenticator;
+## use Senger\Google2fa\GoogleAuthenticator;
 
  $ga = new GoogleAuthenticator();
 
