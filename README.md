@@ -11,7 +11,7 @@ A One Time Password Authentication package, compatible with Google Authenticator
 
  $secret  = $ga->createSecret();
  
- $version = $ga->version();
+ $ga->verifyCode($secret, $gacode, 1);
 
 
 Google 2fa.
